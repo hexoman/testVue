@@ -1,1 +1,0 @@
-function t(t){const n={},e=new URL(t).search;return new URLSearchParams(e).forEach(((t,e)=>{n[e]=t})),n}function n(t){const n=new Date(t);return`${n.getFullYear()}-${String(n.getMonth()+1).padStart(2,"0")}-${String(n.getDate()).padStart(2,"0")}`}function e(){const t=new Date,n=new Date(t);return n.setMonth(t.getMonth()-1),n}export{e as a,t as g,n as t};
